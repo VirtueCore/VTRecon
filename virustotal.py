@@ -44,7 +44,9 @@ async def API(file_to_read):
             # Await async call
             FILE_OBJ = await CLIENT.get_object_async(f"/files/{VT_HAS}")
             print(f"\nResults for {VT_HAS}:")
-            print(FILE_OBJ.last_analysis_stats)
+            OBJECTS = FILE_OBJ.last_analysis_stats
+            for key, value in OBJECTS.items():
+                print(f"\n{key.title()} : {value}")
             
         except vt.error.APIError as e:
             # Display error message for VT
