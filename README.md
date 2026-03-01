@@ -7,7 +7,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.9%2B-blue.svg" />
   <img src="https://img.shields.io/badge/Version-0.1.0-informational.svg" />
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" />
+  <img src="[https://img.shields.io/badge/License-MIT-green.svg](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)" />
   <img src="https://img.shields.io/badge/Status-Active%20Development-orange.svg" />
   <img src="https://img.shields.io/badge/Platform-Linux%20%7C%20Windows%20%7C%20macOS-lightgrey.svg" />
 </p>
@@ -137,7 +137,7 @@ Contributions, feature requests, and security improvements are welcome.
 
 ## License
 
-This project is licensed under the GNU General Public License v2.0 License.
+This project is licensed under the GNU General Public License v2.0.
 
 ---
 
