@@ -86,7 +86,7 @@ The CLI implementation acts as the foundation for a scalable threat intelligence
 
 ## Roadmap
 
-- [ ] URL scanning support
+- [x] URL scanning support
 - [ ] File upload scanning
 - [ ] Batch processing mode
 - [ ] JSON output flag
