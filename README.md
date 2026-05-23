@@ -122,7 +122,7 @@ VTRecon follows semantic versioning:
 MAJOR.MINOR.PATCH
 ```
 
-Current Version: `0.1.0-1`
+Current Version: `0.1.1`
 
 ---
 
