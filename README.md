@@ -53,6 +53,17 @@ venv\Scripts\activate         # Windows
 pip install -r requirements.txt
 ```
 
+### 4️⃣ Add API Key
+
+Linux/macOS:
+```bash
+export API_KEY="API-KEY-HERE"
+```
+
+Windows:
+```cmd
+setx API_KEY "API-KEY-HERE"
+```
 ---
 
 ## Usage
@@ -60,12 +71,10 @@ pip install -r requirements.txt
 Run VTRecon:
 
 ```bash
-python main.py
+python vtrecon.py
 ```
 
 On first execution:
-- You will be prompted to enter your VirusTotal API key.
-- The key will be stored locally in `VirusTotalAPI.txt`.
 - You will then be prompted to enter a hash for analysis.
 
 ---
@@ -91,7 +100,7 @@ The CLI implementation acts as the foundation for a scalable threat intelligence
 - [ ] Batch processing mode
 - [ ] JSON output flag
 - [ ] Argparse-based CLI flags
-- [ ] Environment variable API support
+- [x] Environment variable API support
 - [ ] Config file support
 - [ ] Logging system
 - [ ] GUI interface (Tkinter / PyQt / Web-based)
@@ -103,14 +112,6 @@ The CLI implementation acts as the foundation for a scalable threat intelligence
 
 For production use, storing API keys in plaintext is not recommended.
 
-Preferred approach:
-
-```bash
-export VT_API_KEY=your_api_key_here
-```
-
-Future versions will support environment variable authentication.
-
 ---
 
 ## Versioning
@@ -121,7 +122,7 @@ VTRecon follows semantic versioning:
 MAJOR.MINOR.PATCH
 ```
 
-Current Version: `0.1.0`
+Current Version: `0.1.0-1`
 
 ---
 
