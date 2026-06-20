@@ -84,6 +84,19 @@ On first execution:
 ```
 Results for <hash_value>:
 {'harmless': 65, 'malicious': 3, 'suspicious': 1, 'undetected': 12}
+
+
+Results for https://amtso.org and http://amtso.org:
+Malicious: 0
+
+Suspicious: 0
+
+Undetected: 33
+
+Harmless: 58
+
+Timeout: 0
+
 ```
 
 ---
@@ -96,7 +109,7 @@ The CLI implementation acts as the foundation for a scalable threat intelligence
 ## Roadmap
 
 - [x] URL scanning support
-- [ ] File upload scanning
+- [x] File upload scanning
 - [ ] Batch processing mode
 - [ ] JSON output flag
 - [ ] Argparse-based CLI flags
